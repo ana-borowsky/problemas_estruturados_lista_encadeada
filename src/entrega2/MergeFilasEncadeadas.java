@@ -38,6 +38,8 @@ public class MergeFilasEncadeadas {
 	}
 
     public static void main(String[] args) {
+    	System.out.println("\nBem vindo ao programa de união de filas com estrutura de fila encadeada!");
+    	
     	FilaEncadeada conjuntoA = new FilaEncadeada();
     	FilaEncadeada conjuntoB = new FilaEncadeada();
 
@@ -52,7 +54,7 @@ public class MergeFilasEncadeadas {
     	conjuntoB.insere(25);
         conjuntoB.insere(90);
 
-        System.out.println("Conjunto A antes da união:");
+        System.out.println("\nConjunto A antes da união:");
         conjuntoA.imprime();
 
         System.out.println("\nConjunto B antes da união:");

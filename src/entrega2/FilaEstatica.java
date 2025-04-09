@@ -6,7 +6,7 @@ public class FilaEstatica {
     private int primeiro;
     private int ultimo;
     private int[] dados;
-    private int capacidade;
+    public int capacidade;
     private int tamanhoAtual;
 
     public FilaEstatica(int capacidade) {
@@ -68,8 +68,6 @@ public class FilaEstatica {
             System.out.println("A fila está vazia.");
             return;
         }
-
-        System.out.println("Fila atual: ");
 
         int i = 0;
         while (i < tamanhoAtual) {
