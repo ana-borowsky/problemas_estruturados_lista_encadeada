@@ -1,8 +1,8 @@
-package problemas_lista_encadeada;
+package entrega2;
 
-import problemas_lista_encadeada.FilaEncadeada;
+import java.util.Scanner;
 
-public class Merge { 
+public class MergeFilasEncadeadas {
 	public FilaEncadeada mergeFilasEncadeadas(FilaEncadeada conjuntoA, FilaEncadeada conjuntoB) {
 	    FilaEncadeada conjuntoC = new FilaEncadeada();
 
@@ -37,7 +37,6 @@ public class Merge {
 	    return conjuntoC;
 	}
 
-
     public static void main(String[] args) {
     	FilaEncadeada conjuntoA = new FilaEncadeada();
     	FilaEncadeada conjuntoB = new FilaEncadeada();
@@ -59,10 +58,11 @@ public class Merge {
         System.out.println("\nConjunto B antes da união:");
         conjuntoB.imprime();
 
-        Merge uniao = new Merge();
+        MergeFilasEncadeadas uniao = new MergeFilasEncadeadas();
         FilaEncadeada resultado = uniao.mergeFilasEncadeadas(conjuntoA, conjuntoB);
 
         System.out.println("\nResultado da união:");
         resultado.imprime();
     }
+
 }

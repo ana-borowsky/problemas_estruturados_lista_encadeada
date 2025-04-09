@@ -1,10 +1,9 @@
-package problemas_lista_encadeada;
+package entrega2;
 
 import java.util.Scanner;
 
-//Este é o programa da fila com estrutura de lista encadeada
 public class FilaEncadeada {
-    class No {
+	class No {
         int dado; 
         No proximo; 
 
@@ -104,4 +103,4 @@ public class FilaEncadeada {
 
 	        scanner.close();
 	    }
-	}
+}

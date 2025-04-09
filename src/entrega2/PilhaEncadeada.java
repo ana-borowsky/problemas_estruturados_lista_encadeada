@@ -1,11 +1,9 @@
-package problemas_lista_encadeada;
+package entrega2;
 
 import java.util.Scanner;
 
-//Este é o programa da pilha com estrutura de lista encadeada
-
-public class Pilha {
-    class No {
+public class PilhaEncadeada {
+	class No {
         int dado; 
         No proximo;
 
@@ -75,7 +73,7 @@ public class Pilha {
 	//Método main para testar o programa
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-	        Pilha pilha = new Pilha();
+	        PilhaEncadeada pilha = new PilhaEncadeada();
 
 	        System.out.println("Bem-vindo ao programa de Pilha com lista encadeada!");
 
@@ -115,4 +113,4 @@ public class Pilha {
 
 	        scanner.close();
 	    }
-	}
+}

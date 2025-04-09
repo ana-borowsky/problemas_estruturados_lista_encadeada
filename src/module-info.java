@@ -4,5 +4,5 @@
 /**
  * 
  */
-module problemas_lista_encadeada {
+module entrega2 {
 }
