@@ -3,7 +3,7 @@ package problemas_lista_encadeada;
 import java.util.Scanner;
 
 //Este é o programa da fila com estrutura de lista encadeada
-public class Fila {
+public class FilaEncadeada {
     class No {
         int dado; 
         No proximo; 
@@ -36,7 +36,7 @@ public class Fila {
 	    }
 
 	    // método para remover elemento da fila
-	    public int remove() {
+	    public Integer remove() {
 	        if (this.vazia()) {
 	            System.out.println("Fila vazia!");
 	            return -1;
@@ -64,7 +64,7 @@ public class Fila {
 
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-	        Fila fila = new Fila();
+	        FilaEncadeada fila = new FilaEncadeada();
 
 	        System.out.println("Bem-vindo ao programa de Fila com lista encadeada!\n");
 
